@@ -477,7 +477,7 @@
     function loadlevels() {
         /* is url set?*/
         //if(game.loadremotelev){
-        if (2 === 1) {
+        if (2 === 2) {
             /* pull the sheet defidned by game.url and pass it to createlevels */
             var public_spreadsheet_url = "https://docs.google.com/spreadsheet/pub?hl=en_US&hl=en_US&key=" + game.url;
             Tabletop.init({
@@ -499,6 +499,7 @@
         function createlevels(data) {
             /* sort the woorkbooks for ensuring the levels are in order of their workbooknames*/
             var wb = sortObject(data);
+
 
             var ll = 1;
             /* loop through each workbook eg. level in sheet an set/reset the receiving array for the elements */
@@ -568,7 +569,8 @@
             }
             /* output the levels as c&p able jsonstring for pasting it into levels.json */
             try {
-               // console.log(JSON.stringify(levels));
+                console.log(levels);
+                console.log(JSON.stringify(levels));
             } catch (err) {
             }
             parselevel();
@@ -595,7 +597,9 @@
                     a.push(key);
                 }
             }
+            console.log(a);
             a.sort();
+             console.log(a);
             for (key = 0; key < a.length; key++) {
                 sorted[a[key]] = o[a[key]];
             }
@@ -628,7 +632,7 @@
         /* parse the information from current level and show up the inital text and hide the "load" animation if first level
            parse the information from current level into menue
         */
-        if(game.level === 1){
+        if(game.level === 1 || game.loadremotelev){
             injectinfo("init");
             $(".spinner").fadeOut(10, function() {
                 $("#inittextboxinner").fadeIn(10);
@@ -1251,7 +1255,7 @@
                 sethash("");
             }
             if (hashes.edit) {
-                game = JSON.parse(hashes.edit);
+                game = JSON.parse(decodeURIComponent(hashes.edit));
                 game.loadremotelev = true;
             }
             if (hashes.url) {

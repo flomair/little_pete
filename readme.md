@@ -43,7 +43,7 @@ you can´t run through rocks ... jipp. surprise!
 
 tap around pete to move him
 
-tap and hold for pausing and accessing the menu functions
+tap and hold for pause and accessing the menu functions
 tap outside the pause window to resume
 
 
@@ -68,12 +68,12 @@ tap on the refresh-icon to reload the game from scratch
 
 ok, here you are
 
-copy the [google sheet](https://docs.google.com/spreadsheets/d/EV4ibIqoFD6OC5LvyPp5-TvpXGSKZyCJ4YwYzdD67Qw) witch holds the gameplay.
+copy the [google sheet](https://docs.google.com/spreadsheets/d/1EV4ibIqoFD6OC5LvyPp5-TvpXGSKZyCJ4YwYzdD67Qw) witch holds the gameplay.
 edit the levels and the story
 further information can be found [here](https://docs.google.com/document/d/1JvPxzAjZ_CbhhXIQoz9fKE04j_nM_g2yap6HnSU5nis)
 
 hit the wrench to display the game configuration in your adress bar.
-the most important part is the "url". paste your new sheet id in and reload. tadaa! now you can select the initial-level and play around with the configuration.
+the most important part is the "url". paste in your new sheet id and reload. tadaa! now you can select the initial-level and play around with the configuration.
 when you are done, hit the cloud button.
 
 the current game url will appear in the adress bar. replace it with your sheet-id and share your game to the world. little pete will now pull your sheet with your story and your levels.
