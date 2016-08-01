@@ -1,0 +1,390 @@
+{
+  "game": {
+    "url": "1EV4ibIqoFD6OC5LvyPp5-TvpXGSKZyCJ4YwYzdD67Qw",
+    "level": 1,
+    "levelstate": 0,
+    "loadedlevel": 0,
+    "paused": false,
+    "muted": false,
+    "speed": 100,
+    "speedfactor": 0,
+    "frame": 0,
+    "framefactor": 5,
+    "voffset": 83,
+    "lives": 10,
+    "maxlives": 10,
+    "coinvalue": 10,
+    "points": 0,
+    "init": false,
+    "keyrate": 150,
+    "imgbase": "assets/img/sprite.png"
+  },
+  "heart": {
+    "v": 0,
+    "w": 101,
+    "h": 171
+  },
+  "player": {
+    "type": "player",
+    "voffset": -5 ,
+    "hoffset": 20,
+    "name": "player",
+    "img": "player",
+    "frames": 2,
+    "frameoffset": 0,
+    "moveable": true,
+    "scale": 1,
+    "width": 63,
+    "height": 83,
+    "sprite": {
+      "1-1": 8265,
+      "1-2": 8358,
+      "2-1": 8451,
+      "2-2": 8544
+    }
+  },
+  "enemies": {
+    "grassair": {
+      "name": "grassair",
+      "enenmytype": "air",
+      "layer": "grass",
+      "img": "grassb",
+      "voffset": -2,
+      "hoffset": 0,
+      "frames": 2,
+      "frameoffset": 2,
+      "scale": 1,
+      "bump": false,
+      "moveable": true,
+      "width": 101,
+      "height": 74,
+      "sprite": {
+        "1-1": 1903,
+        "1-2": 1987,
+        "2-1": 2071,
+        "2-2": 2155
+      }
+    },
+    "grassground": {
+      "name": "grassground",
+      "enenmytype": "ground",
+      "layer": "grass",
+      "img": "grass",
+      "voffset": 3,
+      "hoffset": 0,
+      "frames": 5,
+      "frameoffset": 0,
+      "scale": 1,
+      "bump": true,
+      "moveable": true,
+      "width": 101,
+      "height": 75,
+      "sprite": {
+        "1-1": 543,
+        "1-2": 628,
+        "2-1": 713,
+        "2-2": 798,
+        "3-1": 883,
+        "3-2": 968,
+        "4-1": 1053,
+        "4-2": 1138,
+        "5-1": 1223,
+        "5-2": 1308
+      }
+    },
+    "streetair": {
+      "name": "stoneair",
+      "enenmytype": "air",
+      "layer": "stone",
+      "img": "stoneb",
+      "voffset": -2,
+      "hoffset": 0,
+      "frames": 2,
+      "frameoffset": 2,
+      "scale": 1,
+      "bump": false,
+      "moveable": true,
+      "width": 101,
+      "height": 82,
+      "sprite": {
+        "1-1": 2601,
+        "1-2": 2693,
+        "2-1": 2785,
+        "2-2": 2877
+      }
+    },
+    "streetground": {
+      "name": "streetground",
+      "enenmytype": "ground",
+      "layer": "stone",
+      "img": "stone",
+      "voffset": -3,
+      "hoffset": 0,
+      "frames": 4,
+      "frameoffset": 0,
+      "scale": 1,
+      "bump": true,
+      "moveable": true,
+      "width": 76,
+      "height": 83,
+      "sprite": {
+        "1-1": 7893,
+        "1-2": 7986,
+        "2-1": 8079,
+        "2-2": 8172,
+        "3-1": 7521,
+        "3-2": 7614,
+        "4-1": 7707,
+        "4-2": 7800
+      }
+    },
+    "waterair": {
+      "name": "waterair",
+      "enenmytype": "air",
+      "layer": "water",
+      "img": "waterb",
+      "voffset": -2,
+      "hoffset": 0,
+      "frames": 2,
+      "frameoffset": 2,
+      "scale": 1,
+      "bump": false,
+      "moveable": true,
+      "width": 101,
+      "height": 73,
+      "sprite": {
+        "1-1": 4904,
+        "1-2": 4987,
+        "2-1": 5070,
+        "2-2": 5153
+      }
+    },
+    "waterground": {
+      "name": "waterground",
+      "enenmytype": "ground",
+      "layer": "water",
+      "img": "water",
+      "voffset": 20,
+      "hoffset": 0,
+      "frames": 15,
+      "frameoffset": 0,
+      "scale": 1,
+      "bump": true,
+      "moveable": true,
+      "width": 101,
+      "height": 55,
+      "sprite": {
+        "1-1": 4254,
+        "1-2": 4319,
+        "2-1": 4384,
+        "2-2": 4449,
+        "3-1": 4514,
+        "3-2": 4579,
+        "4-1": 4644,
+        "4-2": 4709,
+        "5-1": 4774,
+        "5-2": 4839,
+        "6-1": 4774,
+        "6-2": 4839,
+        "7-1": 4774,
+        "7-2": 4839,
+        "8-1": 4774,
+        "8-2": 4839,
+        "9-1": 4774,
+        "9-2": 4839,
+        "10-1": 4774,
+        "10-2": 4839,
+        "11-1": 4774,
+        "11-2": 4839,
+        "12-1": 4774,
+        "12-2": 4839,
+        "13-1": 4644,
+        "13-2": 4709,
+        "14-1": 4514,
+        "14-2": 4579,
+        "15-1": 4384,
+        "15-2": 4449
+      }
+    }
+  },
+  "items": {
+    "coins": {
+      "name": "coins",
+      "img": "coin",
+      "frames": 10,
+      "frameoffset": 0,
+      "voffset": 0,
+      "hoffset": 10,
+      "scale": 8,
+      "bump": false,
+      "moveable": false,
+      "width": 83,
+      "height": 83,
+      "sprite": {
+        "1-0": 5661,
+        "2-0": 5847,
+        "3-0": 5940,
+        "4-0": 6033,
+        "5-0": 6126,
+        "6-0": 6219,
+        "7-0": 6312,
+        "8-0": 6405,
+        "9-0": 6498,
+        "10-0": 5754
+      }
+    },
+    "wood": {
+      "name": "wood",
+      "img": "wood",
+      "frames": 3,
+      "frameoffset": 1,
+      "voffset": 0,
+      "hoffset": 0,
+      "scale": 0,
+      "bump": true,
+      "moveable": false,
+      "width": 101,
+      "height": 83,
+      "sprite": {
+        "1-1": 5568,
+        "1-2": 5568,
+        "2-1": 5568,
+        "2-2": 5568,
+        "3-1": 5568,
+        "3-2": 5568
+      }
+    },
+    "power": {
+      "name": "power",
+      "img": "power",
+      "frames": 10,
+      "frameoffset": 0,
+      "voffset": 0,
+      "hoffset": 10,
+      "scale": 8,
+      "bump": false,
+      "moveable": false,
+      "width": 82,
+      "height": 83,
+      "sprite": {
+        "1-0": 6591,
+        "2-0": 6777,
+        "3-0": 6870,
+        "4-0": 6963,
+        "5-0": 7056,
+        "6-0": 7149,
+        "7-0": 7242,
+        "8-0": 7335,
+        "9-0": 7428,
+        "10-0": 6684
+      }
+    },
+    "stones": {
+      "name": "stones",
+      "img": "rock",
+      "frames": 1,
+      "frameoffset": 0,
+      "voffset": -68,
+      "hoffset": 0,
+      "scale": 10,
+      "bump": true,
+      "moveable": false,
+      "width": 101,
+      "height": 171,
+      "sprite": {
+        "1-0": 2239
+      }
+    },
+    "house": {
+      "name": "house",
+      "img": "house",
+      "frames": 1,
+      "frameoffset": 0,
+      "voffset": -18,
+      "hoffset": 0,
+      "scale": 0,
+      "bump": true,
+      "moveable": false,
+      "width": 101,
+      "height": 171,
+      "sprite": {
+        "1-0": 8862
+      }
+    }
+  },
+  "ground": {
+    "grass": {
+      "name": "grass",
+      "img": "grass-block",
+      "voffset": -50,
+      "hoffset": 0,
+      "width": 101,
+      "height": 171,
+      "sprite": 362
+    },
+    "street": {
+      "name": "street",
+      "img": "stone-block",
+      "voffset": -50,
+      "hoffset": 0,
+      "width": 101,
+      "height": 171,
+      "sprite": 2420
+    },
+    "water": {
+      "name": "water",
+      "img": "water-block",
+      "voffset": -50,
+      "hoffset": 0,
+      "width": 101,
+      "height": 171,
+      "sprite": 4073
+    }
+  },
+  "sounds": {
+    "src": [
+      "assets/sounds/gamesounds.webm",
+      "assets/sounds/gamesounds.mp3"
+    ],
+    "volume": 0.4,
+    "pool": 10,
+    "sprite": {
+      "music": [
+        0,
+        29448
+      ],
+      "move": [
+        29500,
+        63
+      ],
+      "win": [
+        30000,
+        2630
+      ],
+      "fail": [
+        33375,
+        2502
+      ],
+      "intro": [
+        36116,
+        1574
+      ],
+      "power": [
+        38900,
+        215
+      ],
+      "coins": [
+        44000,
+        253
+      ],
+      "stone": [
+        39794,
+        231
+      ],
+      "gameover": [
+        41048,
+        40058
+      ]
+    }
+  }
+}

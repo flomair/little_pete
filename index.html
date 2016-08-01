@@ -1,0 +1,129 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Little Pete</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/assets/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/assets/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+    <link rel="manifest" href="/assets/icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/assets/icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/foundation-icons.css">
+</head>
+
+<body>
+     <div id="onewrap" class="board">
+    <canvas id="canbar" class="cans"></canvas>
+</div>
+<div id="allwrap" class="board">
+    <canvas id="canback" class="cans"></canvas>
+    <canvas id="canfront" class="cans"></canvas>
+    <canvas id="maskCanvas" class="cans"></canvas>
+    <div id="toucherbox" class="cans">
+    </div>
+</div>
+<div class="reveal" id="pausemenue" data-overlay="false" data-close-on-esc="false" data-close-on-click="false" data-reveal>
+    <div class="togglersbox">
+        <p class="togglers">
+            <i id="volume" class="fi-volume icobutton mutetoggler"></i>
+            <i id="volume-strike" class="fi-volume-strike icobutton mutetoggler blend"></i>
+            <i class="fi-upload icobutton icborder savegame"></i>
+            <i class="fi-refresh icobutton refresh"></i>
+            <i class="fi-wrench icobutton icborder editmode inithide"></i>
+            <i class="fi-cloud icobutton urlmode inithide"></i>
+        </p>
+        <div class="togglersb">
+            <i id="thecloser" class="fi-x-circle icobutton closer"></i>
+        </div>
+    </div>
+    <div class="menuetextbox">
+        <h1 id="menuetitle"></h1>
+        <div id="menuespriteimg" class="spriteimg"></div>
+        <div id="menuetext">
+        </div>
+        <p id="pausego" class="closer">GO!</p>
+    </div>
+</div>
+<div id="inittextbox">
+
+
+
+
+<div class="spinner">
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+
+
+
+
+    <div id="inittextboxinner">
+        <div class="togglersb">
+        <p><a id="howtolink" data-open="howto">How does this work?</a></p>
+        </div>
+        <h1 id="inittitle"></h1>
+        <div id="initspriteimg" class="spriteimg"></div>
+        <div id="inittext">
+        </div>
+
+        <div class="levelsectors">
+            <p>Choose your Gamespeed:</p>
+            <p class="levelsector" id="easy"><i class="fi-die-three icobutton"></i> Easy</p>
+            <p class="levelsector" id="medium"><i class="fi-trophy icobutton"></i> Medium</p>
+            <p class="levelsector" id="hard"><i class="fi-skull  icobutton"></i> Hard</p>
+        </div>
+    </div>
+</div>
+<div class="reveal" id="howto" data-overlay="false" data-reveal>
+    <div class="togglersb">
+        <i class="fi-x-circle icobutton" data-close aria-label="Close modal"></i>
+    </div>
+    <div id="howtotext">
+        <p class="howtodevicetext">
+            <H4>ON Desktop</H4>
+            asdasdASDASDASDASD
+        </p>
+        <p class="howtodevicetext">
+            <H4>ON Mobile / Touch</H4>
+            ASDADSADADFADFASDFASDFASDF
+        </p>
+        <p class="inittexts">
+            <i id="volume" class="fi-volume icobutton mutetoggler "></i>
+            <i id="volume-strike" class="fi-volume-strike icobutton mutetoggler blend"></i> sadsadsad
+        </p>
+        <p class="inittexts">
+            <i class="fi-upload icobutton savegame"></i>
+        </p>
+        <p class="inittexts">
+            <i class="fi-wrench icobutton editmode inithide"></i>
+        </p>
+        <p class="inittexts">
+            <i class="fi-cloud icobutton urlmode inithide"></i>
+        </p>
+    </div>
+</div>
+
+
+    <script src="/assets/js/resources.js"></script>
+    <script src="/assets/js/app.js"></script>
+</body>
+
+</html>

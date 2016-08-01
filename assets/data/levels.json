@@ -1,0 +1,354 @@
+{
+  "1": {
+    "board": [
+      {
+        "rowtype": "grass",
+        "groundbump": false,
+        "airbump": false,
+        "woodbump": false
+      },
+      {
+        "rowtype": "water",
+        "groundbump": true,
+        "airbump": false,
+        "woodbump": false
+      },
+      {
+        "rowtype": "grass",
+        "groundbump": false,
+        "airbump": true,
+        "woodbump": false
+      },
+      {
+        "rowtype": "street",
+        "groundbump": true,
+        "airbump": false,
+        "woodbump": false
+      },
+      {
+        "rowtype": "street",
+        "groundbump": false,
+        "airbump": false,
+        "woodbump": false
+      },
+      {
+        "rowtype": "water",
+        "groundbump": false,
+        "airbump": false,
+        "woodbump": false
+      },
+      {
+        "rowtype": "water",
+        "groundbump": true,
+        "airbump": false,
+        "woodbump": false
+      },
+      {
+        "rowtype": "grass",
+        "groundbump": false,
+        "airbump": true,
+        "woodbump": false
+      },
+      {
+        "rowtype": "street",
+        "groundbump": true,
+        "airbump": false,
+        "woodbump": false
+      },
+      {
+        "rowtype": "street",
+        "groundbump": false,
+        "airbump": false,
+        "woodbump": false
+      },
+      {
+        "rowtype": "water",
+        "groundbump": false,
+        "airbump": false,
+        "woodbump": false
+      },
+      {
+        "rowtype": "grass",
+        "groundbump": false,
+        "airbump": false,
+        "woodbump": false
+      }
+    ],
+    "elems": {
+      "enemies": {
+        "ground": [
+          {
+            "type": "enemy",
+            "name": "ground"
+          },
+          {},
+          {},
+          {
+            "0": 2,
+            "5": 2
+          },
+          {},
+          {},
+          {},
+          {},
+          {
+            "0": 2,
+            "5": 2
+          },
+          {},
+          {}
+        ],
+        "air": [
+          {
+            "type": "enemy",
+            "name": "air"
+          },
+          {},
+          {},
+          {},
+          {
+            "1": -2.1,
+            "6": -2.1
+          },
+          {},
+          {},
+          {},
+          {},
+          {
+            "1": -2.1,
+            "6": -2.1
+          },
+          {}
+        ]
+      },
+      "wood": {
+        "wood": [
+          {
+            "type": "wood",
+            "name": "wood"
+          },
+          {
+            "1": -2.1,
+            "6": -2.1
+          },
+          {},
+          {},
+          {},
+          {
+            "1": 2.1,
+            "6": 2.1
+          },
+          {
+            "1": -2.1,
+            "6": -2.1
+          },
+          {},
+          {},
+          {},
+          {
+            "1": 2.1,
+            "6": 2.1
+          }
+        ]
+      },
+      "items": {
+        "stones": [
+          {
+            "type": "item",
+            "name": "stones"
+          },
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "coins": [
+          {
+            "type": "item",
+            "name": "coins"
+          },
+          {},
+          {},
+          {
+            "1": 0,
+            "6": 0
+          },
+          {},
+          {},
+          {},
+          {},
+          {
+            "1": 0,
+            "6": 0
+          },
+          {},
+          {}
+        ],
+        "power": [
+          {
+            "type": "item",
+            "name": "power"
+          },
+          {},
+          {
+            "4": 0,
+            "9": 0
+          },
+          {},
+          {},
+          {},
+          {},
+          {
+            "4": 0,
+            "9": 0
+          },
+          {},
+          {},
+          {}
+        ]
+      }
+    },
+    "levelname": "Rush Hour",
+    "levelpoints": 100,
+    "playerentrycol": 2,
+    "playerexitcol": 4,
+    "levelcharacter": "coins",
+    "leveltext": "Query doesn't officially support SVG. Using jQuery methods on SVG documents, unless explicitly documented for that method, #might cause unexpected behaviors. Examples of methods that support SVG as of jQuery# 3.0 are addClass and removeClass.Query doesn't officially support SVG. Using jQuery methods on SVG documents, unless explicitly documented for that method, #might cause unexpected behaviors. Examples of methods that support SVG as of jQuery# 3.0 are addClass and removeClass.Query doesn't officially support SVG. Using jQuery methods on SVG documents, unless explicitly documented for that method, #might cause unexpected behaviors. Examples of methods that support SVG as of jQuery# 3.0 are addClass and removeClass.Query doesn't officially support SVG. Using jQuery methods on SVG documents, unless explicitly documented for that method, #might cause unexpected behaviors. Examples of methods that support SVG as of jQuery# 3.0 are addClass and removeClass.Query doesn't officially support SVG. Using jQuery methods on SVG documents, unless explicitly documented for that method, #might cause unexpected behaviors. Examples of methods that support SVG as of jQuery# 3.0 are addClass and removeClass.Query doesn't officially support SVG. Using jQuery methods on SVG documents, unless explicitly documented for that method, #might cause unexpected behaviors. Examples of methods that support SVG as of jQuery# 3.0 are addClass and removeClass.",
+    "rows": 11,
+    "cols": 9
+  },
+  "2": {
+    "board": [
+      {
+        "rowtype": "grass",
+        "groundbump": false,
+        "airbump": false,
+        "woodbump": false
+      },
+      {
+        "rowtype": "water",
+        "groundbump": false,
+        "airbump": false,
+        "woodbump": false
+      },
+      {
+        "rowtype": "grass",
+        "groundbump": true,
+        "airbump": false,
+        "woodbump": false
+      },
+      {
+        "rowtype": "street",
+        "groundbump": true,
+        "airbump": false,
+        "woodbump": false
+      },
+      {
+        "rowtype": "street",
+        "groundbump": false,
+        "airbump": false,
+        "woodbump": false
+      },
+      {
+        "rowtype": "grass",
+        "groundbump": false,
+        "airbump": false,
+        "woodbump": false
+      }
+    ],
+    "elems": {
+      "enemies": {
+        "ground": [
+          {
+            "type": "enemy",
+            "name": "ground"
+          },
+          {},
+          {},
+          {
+            "2": 3,
+            "3": 2,
+            "4": 2
+          },
+          {}
+        ],
+        "air": [
+          {
+            "type": "enemy",
+            "name": "air"
+          },
+          {},
+          {},
+          {},
+          {
+            "1": 2
+          }
+        ]
+      },
+      "wood": {
+        "wood": [
+          {
+            "type": "wood",
+            "name": "wood"
+          },
+          {
+            "2": 1
+          },
+          {},
+          {},
+          {}
+        ]
+      },
+      "items": {
+        "stones": [
+          {
+            "type": "item",
+            "name": "stones"
+          },
+          {},
+          {},
+          {
+            "1": 0
+          },
+          {}
+        ],
+        "coins": [
+          {
+            "type": "item",
+            "name": "coins"
+          },
+          {},
+          {
+            "0": 0
+          },
+          {},
+          {}
+        ],
+        "power": [
+          {
+            "type": "item",
+            "name": "power"
+          },
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    },
+    "levelname": "Killer",
+    "levelpoints": 2,
+    "playerentrycol": 2,
+    "playerexitcol": 2,
+    "levelcharacter": "grassair",
+    "leveltext": "By definition, the order of keys in an object is undefined, so you probably won't be able to do that in a way that is future-proof. Instead, you should think about sorting these keys when the object is actually being displayed to the user. Whatever sort order it uses internally doesn't really matter anyway.",
+    "rows": 5,
+    "cols": 8
+  }
+}
