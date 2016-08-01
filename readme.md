@@ -1,7 +1,7 @@
-# help little pete
+# little pete
 ## this a version of the frogger from the  udacity front-end nano degree course.
 
-## play it [here](https://docs.google.com/spreadsheets/d/1ev4ibiqofd6oc5lvypp5-tvpxgskzycj4ywyzdd67qw)
+## play it [here](https://flomair.github.io/little_pete/)
 
 ### implemented features:
 - the levels can be created by google sheets
