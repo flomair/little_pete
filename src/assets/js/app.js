@@ -475,6 +475,7 @@
     /* load the levels.json or if urlmode or editmode is used pull the google sheet and load
      it into var level and log the output for copy and paste to levels.json    */
     function loadlevels() {
+        /* is url set?*/
         //if(game.loadremotelev){
         if (2 === 1) {
             /* pull the sheet defidned by game.url and pass it to createlevels */
@@ -493,7 +494,7 @@
         }
 
         /* load the gamplay pulled from google sheets
-        *   @ data[string]: data of the google sheet in json format
+        *   @ data[object]: data of the google sheet in json format
         */
         function createlevels(data) {
             /* sort the woorkbooks for ensuring the levels are in order of their workbooknames*/
@@ -537,9 +538,9 @@
                     var olist = [{}, {}, {}, {}, {}, {}],
                         row = sheet[r];
                     var op = 0;
-                    /* loop through each column of the row with offset of the row basevariables */
+                    /* loop through each column of the row with offset of the row base variables */
                     for (var f = 4; f < rl; f = f + 6) {
-                        /*loop through the different elements to be set, and fill the element specific object with */
+                        /*loop through the different elements to be set, and fill the element specific object */
                         for (var ol = 0; ol < olist.length; ol++) {
                             if (wasset(row[f + ol])) olist[ol][op] = wassetx(row[f + ol]);
                         }

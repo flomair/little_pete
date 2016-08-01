@@ -68,9 +68,9 @@ tap on the refresh-icon to reload the game from scratch
 
 ok, here you are
 
-copy the [google sheet](https://docs.google.com/spreadsheets/d/1ev4ibiqofd6oc5lvypp5-tvpxgskzycj4ywyzdd67qw) wich holds the gameplay.
+copy the [google sheet](https://docs.google.com/spreadsheets/d/EV4ibIqoFD6OC5LvyPp5-TvpXGSKZyCJ4YwYzdD67Qw) witch holds the gameplay.
 edit the levels and the story
-further information can be found [here](https://docs.google.com/document/d/1jvpxzajz_cbhhxiqoz9fke04j_nm_g2yap6hnsu5nis)
+further information can be found [here](https://docs.google.com/document/d/1JvPxzAjZ_CbhhXIQoz9fKE04j_nM_g2yap6HnSU5nis)
 
 hit the wrench to display the game configuration in your adress bar.
 the most important part is the "url". paste your new sheet id in and reload. tadaa! now you can select the initial-level and play around with the configuration.
