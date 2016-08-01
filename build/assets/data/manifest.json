@@ -1,0 +1,14 @@
+{
+  "short_name": "Kinlan's Amaze App",
+  "name": "Kinlan's Amazing Application ++",
+  "icons": [
+    {
+      "src": "assets/img/Litte-Benny.png",
+      "sizes": "499x750",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "orientation": "landscape"
+}

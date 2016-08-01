@@ -1,0 +1,17 @@
+{
+    "shadow": true,
+    "validthis": true,
+    "quotmark": "double",
+    "undef": true,
+    "unused": true,
+    "globals": {
+        "$": true,
+        "window" : true,
+        "console" : true,
+        "document" : false,
+        "clearTimeout": true,
+        "location" :true,
+        "history": true,
+        "Foundation": true
+    }
+}

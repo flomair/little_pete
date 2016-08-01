@@ -1,0 +1,277 @@
+@charset 'utf-8';
+@import 'settings';
+@import 'foundation';
+@include foundation-global-styles;
+@include foundation-grid;
+@include foundation-typography;
+@include foundation-reveal;
+$background-image: url('../img/sprite.png');
+@font-face {
+    font-family: 'Toona';
+    src: url('../fonts/ToonaciousBB_Reg.ttf');
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+canvas {
+    position: absolute;
+    left: 0;
+    margin: auto;
+    right: 0;
+}
+
+ul {
+    list-style-type: none;
+    p{
+        padding-left: 3rem;
+    }
+}
+
+.board {
+    position: absolute;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    width: 100vw;
+}
+
+#toucherbox {
+    position: absolute;
+    overflow: hidden;
+    z-index: 5;
+}
+
+.spinner div {
+    width: 8rem;
+    height: 8rem;
+    position: absolute;
+    left: 104vw;
+    top: 20vw;
+    color: $red;
+    font-size: 6rem;
+    text-align: center;
+    vertical-align: top;
+    border-radius: 50%;
+    animation: move 2s infinite cubic-bezier(.2, .64, .81, .23);
+}
+
+.spinner div:nth-child(2) {
+    animation-delay: 150ms;
+}
+
+.spinner div:nth-child(3) {
+    animation-delay: 300ms;
+}
+
+.spinner div:nth-child(4) {
+    animation-delay: 450ms;
+}
+
+@keyframes move {
+    0% {
+        left: 100%;
+    }
+    75% {
+        left: -8rem;
+    }
+    100% {
+        left: -8rem;
+    }
+}
+
+#inittextbox {
+    position: absolute;
+    height: 100%;
+    background-color: $yellow;
+    font-size: 2em;
+    z-index: 50;
+    width: 100%;
+    padding: 4vw;
+    font-size: 1.5em;
+    display: table;
+    overflow-y: auto;
+    overflow-x: auto;
+    @include breakpoint(large) {
+        padding: 6vw;
+    }
+}
+
+#inittextboxinner {
+    display: none;
+}
+
+#inittitle {
+    padding-top: 0.5vh;
+    font-size: 2em;
+    text-align: center;
+    @include breakpoint(medium) {
+        padding-top: 0em;
+        padding-bottom: 2rem;
+        font-size: 4em;
+    }
+}
+
+#inittext {
+    @include breakpoint(medium) {
+        display: table;
+    }
+}
+
+.levelsectors {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.inittexts i {
+    margin-right: 2vw;
+}
+
+.levelsectors {
+    padding-top: 2rem;
+}
+
+.levelsector {
+    cursor: pointer
+}
+
+.levelsector > .icobutton {
+    vertical-align: middle;
+    padding-right: 2vw;
+    font-size: 1em;
+}
+
+#howtolink {
+    color: $black;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.reveal {
+    background-color: $yellow;
+    width: 80vw;
+    height: 90vh;
+    border-radius: 2vw;
+    padding: 0;
+    font-size: 2em;
+    border: 0;
+    overflow: hidden;
+    @include breakpoint(medium down) {
+        font-size: 1em;
+    }
+}
+
+#howto {
+    border: 3px solid $red;
+    height: 96vh;
+    width: 96vw;
+}
+
+#howtotext {
+    padding: 0.2em 2em;
+    font-size: 1.3rem;
+    @include breakpoint(medium) {
+        padding: 1em 2em;
+    }
+    h2,
+    h4 {
+        color: $black;
+        margin-top: 2rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    h4 {
+        margin-top: 2rem;
+    }
+}
+
+.howtodevicetext {
+    margin: 0 0;
+}
+
+.howtobutton {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.icobutton,
+{
+    font-size: 1em;
+    cursor: pointer;
+    @include breakpoint(medium down) {
+        font-size: 2em;
+    }
+}
+
+.icobutton.blend {
+    color: $orange;
+}
+
+.togglers {
+    position: fixed;
+    background-color: $yellow;
+    width: 80vw;
+    max-width: 75rem;
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+}
+
+.togglersb {
+    position: relative;
+    float: right;
+    margin-right: 1vw;
+}
+
+.togglers:nth-child(odd) {
+    padding-right: 4vw;
+    @include breakpoint(medium) {
+        padding-right: 3vw;
+    }
+    @include breakpoint(xlarge) {
+        padding-right: 2vw;
+    }
+}
+
+.icborder {
+    border-left: 2px solid $red;
+}
+
+.togglers i {
+    padding: 0 2vw;
+}
+
+.inithide,
+.inithide2 {
+    display: none;
+}
+
+.revealtextbox {
+    clear: both;
+    padding: 2vw;
+    height: 84vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#pausego {
+    text-align: center;
+}
+
+.spriteimg {
+    background: url("../img/sprite.png") no-repeat;
+    background-position: 0 -8451px;
+    display: inline-block;
+    width: 62px;
+    height: 83px;
+    float: left;
+    margin: 5vw;
+    @include breakpoint(medium) {
+        margin: 3rem;
+    }
+}

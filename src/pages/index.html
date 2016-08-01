@@ -1,0 +1,167 @@
+<div id="onewrap" class="board">
+    <canvas id="canbar" class="cans"></canvas>
+</div>
+<div id="allwrap" class="board">
+    <canvas id="canback" class="cans"></canvas>
+    <canvas id="canfront" class="cans"></canvas>
+    <canvas id="maskCanvas" class="cans"></canvas>
+    <div id="toucherbox" class="cans">
+    </div>
+</div>
+<div id="inittextbox">
+    <div class="spinner">
+        <div>L</div>
+        <div>O</div>
+        <div>A</div>
+        <div>D</div>
+    </div>
+    <div id="inittextboxinner">
+        <h1 id="inittitle"></h1>
+        <div id="initspriteimg" class="spriteimg"></div>
+        <div id="inittext">
+        </div>
+        <div class="levelsectors">
+            <p><a id="howtolink" data-open="howto">Click for game instructions</a></p>
+            <p>Choose your Gamespeed:</p>
+            <p class="levelsector" id="easy"><i class="fi-die-three icobutton"></i> Easy</p>
+            <p class="levelsector" id="medium"><i class="fi-trophy icobutton"></i> Medium</p>
+            <p class="levelsector" id="hard"><i class="fi-skull  icobutton"></i> Hard</p>
+        </div>
+    </div>
+</div>
+<div class="reveal" id="howto" data-overlay="false" data-reveal>
+    <div class="togglersb">
+        <i class="fi-x-circle icobutton" data-close aria-label="Close modal"></i>
+    </div>
+    <div id="howtotext" class="revealtextbox">
+        <h2>Gameplay</h2>
+        <p>Help Little Pete to get upwards to the House.
+            <br>If you touch an Enemy, You'll die… surprise!
+            <br>You can´t run over Water, You'll drown… surprise!
+            <br>To get over the Water, jump on a log. It will move you along. Watch out!
+            <br>Collect coins for points, collect lightnings for extra lives.
+            <br>You can´t run through Rocks ... Jipp. Surprise!</p>
+        <h2>Gamecontrol</h2>
+        <div class="howtodevicetext">
+            <H4>On Mobile / Touch</H4>
+            <p>Tap around Pete to move him.</p>
+            <p>Tap and hold for pausing and accessing the Menu Functions.
+                <br>Tap Outside the pause window to resume.
+            </p>
+        </div>
+        <div class="howtodevicetext">
+            <H4>On Desktop</H4>
+            <p>Use the arrows to move little Pete.</p>
+            <p>Hit Space for pausing and accessing the Menu Functions
+                <br>Hit Space again to resume.</p>
+        </div>
+        <H2>Menu Functions</H2>
+        <p class="inittexts">
+            <i id="volume" class="fi-volume icobutton mutetoggler "></i>
+            <i id="volume-strike" class="fi-volume-strike icobutton mutetoggler blend"></i>Tap on the Icons to toggle Sound&nbsp;/&nbsp;Mute
+        </p>
+        <p class="inittexts">
+            <i class="fi-upload icobutton savegame"></i> Tap on the Upload-Button to create a Link with your current Game to send it to other devices by Email, Whatsapp, ...
+        </p>
+        <p class="inittexts">
+            <i class="fi-refresh icobutton refresh"></i> Tap on the Refresh-Button to reload the Game from Scratch
+        </p>
+        <H4 class="howtobutton edittoggler">Your Story and the Levels suck! let me do my own game!!!</H4>
+        <div class="inithide">
+            <p>Ok, here you are</p>
+            <p>Copy the <a href="https://docs.google.com/spreadsheets/d/1EV4ibIqoFD6OC5LvyPp5-TvpXGSKZyCJ4YwYzdD67Qw" target="_blank">Google sheet</a> wich holds the gameplay.
+                <br>Edit the levels and the story.
+                <br>Further information can be found <a href="https://docs.google.com/document/d/1JvPxzAjZ_CbhhXIQoz9fKE04j_nM_g2yap6HnSU5nis" target="_blank">here</a>.</p>
+            <p class="inittexts">
+                <i class="fi-wrench icobutton editmode"></i> Hit the Wrench-Button to display the game configuration in your adress bar.
+                <br>The most important part is the "url". Paste your new sheet id in and reload. Tadaa! Now you can select the initial-level and play around with the configuration.
+                <br>When you are done, hit the Cloud-Button.
+            </p>
+            <p class="inittexts">
+                <i class="fi-cloud icobutton urlmode"></i> The current game url will appear in the adress bar. Replace it with your sheet-id and share your game to the world. Little Pete will now pull your sheet with your story and your levels.
+            </p>
+        </div>
+        <H4 class="howtobutton credittoggler">Credits</H4>
+        <div class="inithide2">
+            <h2>Used JS Libraries</h2>
+            <ul>
+                <li>
+                    <h4>Audio library</h4>
+                    <p><a href="http://howlerjs.com" target="_blank">howlerjs.com</a>
+                        <br>(c) 2013-2016, James Simpson of GoldFire Studios
+                        <br>goldfirestudios.com</p>
+                </li>
+                <li>
+                    <h4>Google Sheets integration</h4>
+                    <p><a href="https://github.com/jsoma/tabletop" target="_blank">Tabletop.js</a>
+                        <br>Copyright (c) 2012-2013 Jonathan Soma</p>
+                </li>
+                <li>
+                    <h4>Cookies</h4>
+                    <p><a href="https://github.com/js-cookie/js-cookie" target="_blank">JavaScript Cookie v2.1.2</a>
+                        <br>Copyright 2006, 2015 Klaus Hartl & Fagner Brack
+                        <br>Released under the MIT license</p>
+                </li>
+            </ul>
+            <h2>Images/Characters</h2>
+            <ul>
+                <li>
+                    <h4>All Items and Little Benny</h4>
+                    <p><a href="opengameart.org/users/bevouliin" target="_blank">opengameart.org/users/bevouliin</a></p>
+                    <p><a href="http://bevouliin.com" target="_blank">Bevouliin</a></p>
+                </li>
+                <li>
+                    <h4>Background/Rock/House</h4>
+                    <p><a href="http://www.lostgarden.com/2007/05/dancs-miraculously-flexible-game.html" target="_blank">loastgarden.com</a>
+                        <br>Daniel Cook</p>
+                </li>
+            </ul>
+            <h2>Sounds</h2>
+            <ul>
+                <li>
+                    <h4>Main Theme</h4>
+                    <p><a href="https://www.freesound.org/people/Tristan_Lohengrin/sounds/273539/" target="_blank">Tristan_Lohengrin</a></p>
+                </li>
+                <li>
+                    <h4>Level Start / Win</h4>
+                    <p><a href="https://www.freesound.org/people/LittleRobotSoundFactory/sounds/270333/" target="_blank">LittleRobotSoundFactor</a></p>
+                </li>
+                <li>
+                    <h4>Fail</h4>
+                    <p><a href="https://www.freesound.org/people/davidbain/sounds/135831/" target="_blank">davidbain</a></p>
+                </li>
+                <li>
+                    <h4>Pete´s sound</h4>
+                    <p><a href="https://www.freesound.org/people/TinTinOko/sounds/277291/" target="_blank">TinTinOko</a></p>
+                </li>
+                <li>
+                    <h4>Outro</h4>
+                    <p><a href="https://www.freesound.org/people/cabled_mess/sounds/335361/" target="_blank">cabled_mess</a></p>
+                </li>
+            </ul>
+        </div>
+        <H4 class="howtobutton" data-close aria-label="Close modal">Ok, got it. Let´s play!</H4>
+    </div>
+</div>
+<div class="reveal" id="pausemenue" data-overlay="false" data-close-on-esc="false" data-close-on-click="false" data-reveal>
+    <div class="togglersbox">
+        <p class="togglers">
+            <i id="volume" class="fi-volume icobutton mutetoggler"></i>
+            <i id="volume-strike" class="fi-volume-strike icobutton mutetoggler blend"></i>
+            <i class="fi-upload icobutton icborder savegame"></i>
+            <i class="fi-refresh icobutton refresh"></i>
+            <i class="fi-wrench icobutton icborder editmode inithide"></i>
+            <i class="fi-cloud icobutton urlmode inithide"></i>
+        </p>
+        <div class="togglersb">
+            <i id="thecloser" class="fi-x-circle icobutton closer"></i>
+        </div>
+    </div>
+    <div class="revealtextbox">
+        <h2 id="menuetitle"></h2>
+        <div id="menuespriteimg" class="spriteimg"></div>
+        <div id="menuetext">
+        </div>
+        <p id="pausego" class="closer">GO!</p>
+    </div>
+</div>
