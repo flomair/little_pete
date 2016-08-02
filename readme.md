@@ -70,7 +70,7 @@ ok, here you are
 
 copy the [google sheet](https://docs.google.com/spreadsheets/d/1EV4ibIqoFD6OC5LvyPp5-TvpXGSKZyCJ4YwYzdD67Qw) which holds the gameplay.
 edit the levels and the story
-further information can be found [here](https://docs.google.com/document/d/1JvPxzAjZ_CbhhXIQoz9fKE04j_nM_g2yap6HnSU5nis)
+further information can be found [here](https://github.com/flomair/little_pete/blob/master/howto/create_your_own_levels.pdf)
 
 when you are done, hit the cloud button. the current sheet-id will appear in the address  bar. replace it with your sheet-id and share the url with your game to the world. little pete will now pull your sheet with your story and your levels.
 
