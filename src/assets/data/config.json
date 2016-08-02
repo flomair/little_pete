@@ -6,11 +6,11 @@
     "loadedlevel": 0,
     "paused": false,
     "muted": false,
-    "speed": 100,
+    "speed": 70,
     "frame": 0,
     "framefactor": 5,
     "voffset": 83,
-    "lives": 10,
+    "lives": 5,
     "maxlives": 10,
     "coinvalue": 10,
     "points": 0,
@@ -92,7 +92,7 @@
       }
     },
     "streetair": {
-      "name": "stoneair",
+      "name": "streetair",
       "enenmytype": "air",
       "layer": "stone",
       "img": "stoneb",
@@ -345,7 +345,7 @@
       "assets/sounds/gamesounds.ogg",
       "assets/sounds/gamesounds.mp3"
     ],
-    "volume": 0.4,
+    "volume": 0.5,
     "pool": 10,
     "sprite": {
       "music": [

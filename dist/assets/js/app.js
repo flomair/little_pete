@@ -564,9 +564,11 @@
                 ll++;
             }
             /* output the levels as c&p able jsonstring for pasting it into levels.json */
-            console.log(levels);
-            console.log(JSON.stringify(levels));
-
+            try {
+                console.log(levels);
+                console.log(JSON.stringify(levels));
+            } catch (err) {
+            }
             parselevel();
         }
 

@@ -9,6 +9,8 @@ import rimraf   from 'rimraf';
 import sherpa   from 'style-sherpa';
 import yaml     from 'js-yaml';
 import fs       from 'fs';
+import htmlreplace       from 'gulp-html-replace';
+//import closureCompiler       from 'gulp-closure-compiler';
 
 // Load all Gulp plugins into one variable
 const $ = plugins();
@@ -59,6 +61,9 @@ function pages() {
       data: 'src/data/',
       helpers: 'src/helpers/'
     }))
+    .pipe($.if(PRODUCTION,htmlreplace({
+        'js': 'assets/js/app.js'
+    })))
     .pipe(gulp.dest(PATHS.dist));
 }
 
@@ -104,7 +109,8 @@ function javascript() {
     //.pipe($.sourcemaps.init())
     //.pipe($.babel())
     //.pipe($.concat('app.js'))
-    .pipe($.if(PRODUCTION, $.uglify()
+     .pipe($.if(PRODUCTION, $.concat('app.js')))
+     .pipe($.if(PRODUCTION, $.uglify()
       .on('error', e => { console.log(e); })
     ))
     .pipe($.if(!PRODUCTION, $.sourcemaps.write()))

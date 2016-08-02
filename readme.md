@@ -5,7 +5,7 @@
 
 ### implemented features:
 - the levels can be created by google sheets
-- you can use your own story and levels by adding the id of your google sheet in the adress bar
+- you can use your own story and levels by adding the id of your google sheet in the address  bar
 - enemies and items can bump on other enemies, items and the game boundaries
 - player, enemies and items are animated with frames
 - multiple canvas are used for background and foreground elements
@@ -68,15 +68,11 @@ tap on the refresh-icon to reload the game from scratch
 
 ok, here you are
 
-copy the [google sheet](https://docs.google.com/spreadsheets/d/1EV4ibIqoFD6OC5LvyPp5-TvpXGSKZyCJ4YwYzdD67Qw) witch holds the gameplay.
+copy the [google sheet](https://docs.google.com/spreadsheets/d/1EV4ibIqoFD6OC5LvyPp5-TvpXGSKZyCJ4YwYzdD67Qw) which holds the gameplay.
 edit the levels and the story
 further information can be found [here](https://docs.google.com/document/d/1JvPxzAjZ_CbhhXIQoz9fKE04j_nM_g2yap6HnSU5nis)
 
-hit the wrench to display the game configuration in your adress bar.
-the most important part is the "url". paste in your new sheet id and reload. tadaa! now you can select the initial-level and play around with the configuration.
-when you are done, hit the cloud button.
-
-the current game url will appear in the adress bar. replace it with your sheet-id and share your game to the world. little pete will now pull your sheet with your story and your levels.
+when you are done, hit the cloud button. the current sheet-id will appear in the address  bar. replace it with your sheet-id and share the url with your game to the world. little pete will now pull your sheet with your story and your levels.
 
 
 #### credits
