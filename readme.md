@@ -97,6 +97,12 @@ when you are done, hit the cloud button. the current sheet-id will appear in the
     copyright 2006, 2015 klaus hartl & fagner brack
     released under the mit license
 
+*   #### game state
+
+    [javascript state machine library](https://github.com/jakesgordon/javascript-state-machine)
+    copyright (c) 2012, 2013, 2014, 2015, jake gordon and contributors
+    released under the mit license
+
 ## images/characters
 
 *   #### all items and little benny
