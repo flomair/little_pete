@@ -1,12 +1,12 @@
 {
   "game": {
     "url": "1EV4ibIqoFD6OC5LvyPp5-TvpXGSKZyCJ4YwYzdD67Qw",
-    "level": 8,
+    "level": 1,
     "state": 0,
     "loadedlevel": 0,
     "paused": false,
     "muted": false,
-    "speed": 10,
+    "speed": 70,
     "frame": 0,
     "framefactor": 5,
     "voffset": 83,
